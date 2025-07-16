@@ -9,10 +9,10 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Acerca de Esta Aplicación
+              Acerca del Centro de Aprendizaje MEL
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
-              Una herramienta educativa para aprender sobre los métodos y recursos del Centro de Métodos del PNUD
+              Centro especializado en Monitoreo, Evaluación y Aprendizaje con recursos curados de organizaciones líderes
             </p>
           </div>
         </div>
@@ -21,23 +21,23 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* About the App */}
         <section className="mb-16">
-          <h2 className="section-title">Sobre la Aplicación</h2>
+          <h2 className="section-title">Sobre el Centro de Aprendizaje</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg text-gray-700 mb-6">
-                Esta aplicación educativa fue desarrollada para facilitar el aprendizaje sobre los métodos, herramientas y mejores prácticas del Centro de Métodos del Programa de las Naciones Unidas para el Desarrollo (PNUD).
+                Este centro de aprendizaje fue desarrollado por un especialista en Monitoreo, Evaluación y Aprendizaje (MEL) para facilitar el dominio de los enfoques modernos de evaluación.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Basada en recursos oficiales del PNUD, incluyendo las Guías de Evaluación, el Manual de Planificación, Monitoreo y Evaluación, y las herramientas de la Oficina de Evaluación Independiente, esta aplicación ofrece una experiencia de aprendizaje interactiva y práctica.
+                Basado en recursos curados de organizaciones líderes como J-PAL, PNUD, World Bank, UNICEF, OECD y otras instituciones reconocidas, ofrece una experiencia de aprendizaje integral sobre los 5 enfoques principales de evaluación.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-undp-blue mb-2">4</div>
-                  <div className="text-gray-600">Módulos de Aprendizaje</div>
+                  <div className="text-3xl font-bold text-undp-blue mb-2">5</div>
+                  <div className="text-gray-600">Enfoques de Evaluación</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-undp-blue mb-2">10+</div>
-                  <div className="text-gray-600">Recursos Oficiales</div>
+                  <div className="text-3xl font-bold text-undp-blue mb-2">15+</div>
+                  <div className="text-gray-600">Recursos Curados</div>
                 </div>
               </div>
             </div>
@@ -46,7 +46,7 @@ const About: React.FC = () => {
               <ul className="space-y-3">
                 <li className="flex items-start space-x-3">
                   <BookOpen className="h-5 w-5 text-undp-blue mt-0.5" />
-                  <span className="text-gray-700">Contenido basado en recursos oficiales del PNUD</span>
+                  <span className="text-gray-700">Contenido curado de J-PAL, PNUD, World Bank y organizaciones líderes</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <Target className="h-5 w-5 text-undp-blue mt-0.5" />
@@ -54,11 +54,11 @@ const About: React.FC = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <Users className="h-5 w-5 text-undp-blue mt-0.5" />
-                  <span className="text-gray-700">Diseñado para profesionales del desarrollo</span>
+                  <span className="text-gray-700">Desarrollado por especialista MEL certificado</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <Globe className="h-5 w-5 text-undp-blue mt-0.5" />
-                  <span className="text-gray-700">Acceso a herramientas y recursos actualizados</span>
+                  <span className="text-gray-700">5 enfoques modernos con mini-quizzes y ejercicios</span>
                 </li>
               </ul>
             </div>

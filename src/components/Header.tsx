@@ -25,9 +25,9 @@ const Header: React.FC = () => {
             </div>
             <div>
               <h1 className="text-lg font-bold text-undp-darkblue">
-                Centro de Métodos PNUD
+                Centro de Aprendizaje MEL
               </h1>
-              <p className="text-xs text-gray-500">Aplicación Educativa</p>
+              <p className="text-xs text-gray-500">Monitoreo, Evaluación y Aprendizaje</p>
             </div>
           </Link>
 

@@ -1,7 +1,7 @@
 {
-  "name": "undp-methods-center-app",
+  "name": "mel-learning-center",
   "version": "1.0.0",
-  "description": "Aplicación educativa sobre el Centro de Métodos del PNUD",
+  "description": "Centro de Aprendizaje MEL - Monitoreo, Evaluación y Aprendizaje",
   "type": "module",
   "scripts": {
     "dev": "vite",

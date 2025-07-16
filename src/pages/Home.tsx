@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Settings, Target, FileText, Clock, ArrowRight } from 'lucide-react';
+import { BookOpen, Settings, Target, FileText, Clock, ArrowRight, Users, Network, Eye } from 'lucide-react';
 import { modules } from '../data/modules';
 
 const Home: React.FC = () => {
@@ -10,6 +10,9 @@ const Home: React.FC = () => {
       Settings,
       Target,
       FileText,
+      Users,
+      Network,
+      Eye,
     };
     const IconComponent = icons[iconName as keyof typeof icons];
     return IconComponent ? <IconComponent className="h-8 w-8" /> : <BookOpen className="h-8 w-8" />;
@@ -35,14 +38,14 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Centro de Métodos del PNUD
+              Centro de Aprendizaje MEL
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Aprende sobre métodos, herramientas y mejores prácticas para la evaluación y el monitoreo en el desarrollo
+              Especialista en Monitoreo, Evaluación y Aprendizaje - Recursos de J-PAL, PNUD, y organizaciones líderes
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/module/evaluation-fundamentals"
+                to="/module/theory-based-approaches"
                 className="bg-white text-undp-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
               >
                 Comenzar Aprendizaje
@@ -62,9 +65,9 @@ const Home: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="section-title">¿Por qué usar esta aplicación?</h2>
+            <h2 className="section-title">¿Por qué usar este Centro de Aprendizaje?</h2>
             <p className="text-gray-600 text-lg">
-              Desarrollada basándose en los recursos oficiales del PNUD para facilitar el aprendizaje
+              Desarrollado por un especialista en MEL con recursos de J-PAL, PNUD, World Bank y organizaciones líderes
             </p>
           </div>
           
@@ -73,9 +76,9 @@ const Home: React.FC = () => {
               <div className="bg-undp-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="h-8 w-8 text-undp-blue" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Contenido Oficial</h3>
+              <h3 className="text-xl font-semibold mb-2">Contenido Especializado</h3>
               <p className="text-gray-600">
-                Basado en las guías y recursos oficiales del PNUD y la Oficina de Evaluación Independiente
+                Curado por especialista MEL con recursos de J-PAL, PNUD, World Bank, UNICEF y organizaciones líderes
               </p>
             </div>
             
@@ -93,9 +96,9 @@ const Home: React.FC = () => {
               <div className="bg-undp-blue/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Settings className="h-8 w-8 text-undp-blue" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">Herramientas Actualizadas</h3>
+              <h3 className="text-xl font-semibold mb-2">Enfoques Innovadores</h3>
               <p className="text-gray-600">
-                Acceso a las últimas herramientas y metodologías de evaluación del PNUD
+                5 enfoques de evaluación modernos: Theory-based, Participatory, Impact, Systems y Foresight
               </p>
             </div>
           </div>
@@ -106,9 +109,9 @@ const Home: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="section-title">Módulos de Aprendizaje</h2>
+            <h2 className="section-title">Enfoques de Evaluación</h2>
             <p className="text-gray-600 text-lg">
-              Explora los diferentes aspectos de la evaluación y el monitoreo
+              Domina los 5 enfoques modernos de evaluación con recursos de organizaciones líderes
             </p>
           </div>
           
@@ -194,16 +197,16 @@ const Home: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/module/evaluation-fundamentals"
+              to="/module/theory-based-approaches"
               className="btn-primary px-8 py-3"
             >
-              Fundamentos de Evaluación
+              Enfoques Basados en Teoría
             </Link>
             <Link
-              to="/module/methods-tools"
+              to="/module/impact-approaches"
               className="btn-secondary px-8 py-3"
             >
-              Métodos y Herramientas
+              Evaluación de Impacto
             </Link>
           </div>
         </div>

@@ -7,6 +7,16 @@ const Resources: React.FC = () => {
 
   const resources = [
     {
+      id: 'jpal-evaluation-guide',
+      title: 'J-PAL Evaluation Guide',
+      description: 'Guía completa de J-PAL sobre evaluación de impacto y experimentos aleatorios controlados.',
+      category: 'guidelines',
+      type: 'link',
+      url: 'https://www.povertyactionlab.org/resource/evaluating-social-programs',
+      languages: ['Inglés', 'Español', 'Francés'],
+      updated: '2024'
+    },
+    {
       id: 'eval-guidelines',
       title: 'Guías de Evaluación del PNUD',
       description: 'Guías completas actualizadas para la evaluación en el PNUD, incluyendo planificación, implementación y uso de evaluaciones.',
@@ -105,6 +115,36 @@ const Resources: React.FC = () => {
       url: 'http://web.undp.org/evaluation/guideline/index.shtml',
       languages: ['Inglés'],
       updated: '2021'
+    },
+    {
+      id: 'world-bank-impact',
+      title: 'World Bank Impact Evaluation Toolkit',
+      description: 'Herramientas prácticas del Banco Mundial para evaluación de impacto.',
+      category: 'tools',
+      type: 'pdf',
+      url: 'https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice',
+      languages: ['Inglés', 'Español', 'Francés'],
+      updated: '2023'
+    },
+    {
+      id: 'unicef-participatory',
+      title: 'UNICEF Participatory Evaluation Guide',
+      description: 'Guía completa de UNICEF sobre evaluación participativa.',
+      category: 'guidelines',
+      type: 'pdf',
+      url: 'https://www.unicef.org/evaluation/media/1076/file/GEROS-Participatory-Evaluation-2021.pdf',
+      languages: ['Inglés'],
+      updated: '2021'
+    },
+    {
+      id: 'oecd-evaluation',
+      title: 'OECD Evaluation Criteria',
+      description: 'Criterios de evaluación actualizados de la OCDE-CAD.',
+      category: 'standards',
+      type: 'link',
+      url: 'https://www.oecd.org/dac/evaluation/revised-evaluation-criteria-dec-2019.pdf',
+      languages: ['Inglés', 'Francés', 'Español'],
+      updated: '2019'
     }
   ];
 
@@ -158,18 +198,18 @@ const Resources: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-undp-darkblue mb-4">
-              Recursos del PNUD
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Accede a guías oficiales, herramientas, manuales y recursos para la evaluación y el monitoreo
-            </p>
+              <div className="bg-white shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold text-undp-darkblue mb-4">
+                Recursos MEL
+              </h1>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Recursos curados de J-PAL, PNUD, World Bank, UNICEF y organizaciones líderes en evaluación
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Search and Filter */}
