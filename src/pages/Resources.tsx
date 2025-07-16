@@ -168,13 +168,13 @@ const Resources: React.FC = () => {
   const getTypeIcon = (type: string) => {
     switch (type) {
       case 'pdf':
-        return <FileText className="h-5 w-5 text-red-500" />;
+        return <FileText className="h-5 w-5 text-green-600" />;
       case 'video':
-        return <Video className="h-5 w-5 text-blue-500" />;
+        return <Video className="h-5 w-5 text-green-500" />;
       case 'link':
-        return <LinkIcon className="h-5 w-5 text-green-500" />;
+        return <LinkIcon className="h-5 w-5 text-green-700" />;
       case 'document':
-        return <FileText className="h-5 w-5 text-purple-500" />;
+        return <FileText className="h-5 w-5 text-green-400" />;
       default:
         return <FileText className="h-5 w-5 text-gray-500" />;
     }
@@ -311,7 +311,7 @@ const Resources: React.FC = () => {
         )}
 
         {/* Additional Information */}
-        <div className="mt-12 bg-undp-blue/5 rounded-lg p-8">
+                 <div className="mt-12 bg-green-50 rounded-lg p-8 border border-green-200">
           <h2 className="text-2xl font-bold text-undp-darkblue mb-4">
             Información Adicional
           </h2>

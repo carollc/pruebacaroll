@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Centro de Aprendizaje MEL
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+                          <p className="text-xl md:text-2xl mb-8 text-green-100">
               Especialista en Monitoreo, Evaluación y Aprendizaje - Recursos de J-PAL, PNUD, y organizaciones líderes
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -159,28 +159,28 @@ const Home: React.FC = () => {
       <section className="py-16 bg-undp-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">El PNUD en Números</h2>
-            <p className="text-blue-100 text-lg">
-              Impacto global en evaluación y desarrollo
+            <h2 className="text-3xl font-bold mb-4">Impacto Global MEL</h2>
+            <p className="text-green-100 text-lg">
+              Organizaciones líderes en evaluación y desarrollo
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">170+</div>
-              <div className="text-blue-100">Países y territorios</div>
+              <div className="text-4xl font-bold mb-2">15+</div>
+              <div className="text-green-100">Recursos Curados</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">50+</div>
-              <div className="text-blue-100">Años de experiencia</div>
+              <div className="text-4xl font-bold mb-2">5</div>
+              <div className="text-green-100">Enfoques Modernos</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">1000+</div>
-              <div className="text-blue-100">Evaluaciones anuales</div>
+              <div className="text-4xl font-bold mb-2">20+</div>
+              <div className="text-green-100">Mini-Quizzes</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold mb-2">17</div>
-              <div className="text-blue-100">Objetivos de Desarrollo Sostenible</div>
+              <div className="text-4xl font-bold mb-2">6</div>
+              <div className="text-green-100">Organizaciones Líderes</div>
             </div>
           </div>
         </div>

@@ -110,9 +110,9 @@ const ModuleDetail: React.FC = () => {
                   >
                     <div className="flex items-center justify-between">
                       <span>{section.title}</span>
-                      {completedSections.has(index) && (
-                        <CheckCircle className="h-4 w-4 text-green-500" />
-                      )}
+                                                   {completedSections.has(index) && (
+                               <CheckCircle className="h-4 w-4 text-green-600" />
+                             )}
                     </div>
                   </button>
                 ))}
@@ -149,12 +149,12 @@ const ModuleDetail: React.FC = () => {
                         className="card p-4 hover:shadow-md transition-shadow"
                       >
                         <div className="flex items-start space-x-3">
-                          <div className="flex-shrink-0">
-                            {resource.type === 'pdf' && <FileText className="h-5 w-5 text-red-500" />}
-                            {resource.type === 'video' && <Play className="h-5 w-5 text-blue-500" />}
-                            {resource.type === 'link' && <ExternalLink className="h-5 w-5 text-green-500" />}
-                            {resource.type === 'document' && <BookOpen className="h-5 w-5 text-purple-500" />}
-                          </div>
+                                                     <div className="flex-shrink-0">
+                             {resource.type === 'pdf' && <FileText className="h-5 w-5 text-green-600" />}
+                             {resource.type === 'video' && <Play className="h-5 w-5 text-green-500" />}
+                             {resource.type === 'link' && <ExternalLink className="h-5 w-5 text-green-700" />}
+                             {resource.type === 'document' && <BookOpen className="h-5 w-5 text-green-400" />}
+                           </div>
                           <div className="flex-1">
                             <h4 className="font-medium text-undp-darkblue">{resource.title}</h4>
                             {resource.description && (

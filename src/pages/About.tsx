@@ -11,7 +11,7 @@ const About: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Acerca del Centro de Aprendizaje MEL
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-green-100 max-w-3xl mx-auto">
               Centro especializado en Monitoreo, Evaluación y Aprendizaje con recursos curados de organizaciones líderes
             </p>
           </div>
@@ -128,7 +128,7 @@ const About: React.FC = () => {
         {/* Methods Center */}
         <section className="mb-16">
           <h2 className="section-title">Centro de Métodos del PNUD</h2>
-          <div className="bg-undp-blue/5 rounded-lg p-8">
+          <div className="bg-green-50 rounded-lg p-8 border border-green-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-undp-blue mb-4">¿Qué es el Centro de Métodos?</h3>

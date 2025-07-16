@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         undp: {
-          blue: '#0066CC',
-          lightblue: '#4A90E2',
-          darkblue: '#003366',
-          yellow: '#FFCC00',
+          blue: '#10B981',
+          lightblue: '#34D399',
+          darkblue: '#047857',
+          yellow: '#84CC16',
           gray: '#F5F5F5',
           darkgray: '#333333'
         }
