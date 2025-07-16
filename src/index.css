@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-undp-blue hover:bg-undp-darkblue text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-undp-blue border border-undp-blue font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold text-undp-darkblue mb-6;
+  }
+  
+  .subsection-title {
+    @apply text-xl font-semibold text-undp-blue mb-4;
+  }
+}
